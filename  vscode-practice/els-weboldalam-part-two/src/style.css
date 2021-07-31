@@ -1,0 +1,107 @@
+header {
+  display:block;
+  position:fixed;
+  top:0;
+  margin:0;
+  padding:0;
+  height:100px;
+  width:100%;
+  background-color: black;
+  color:white;
+  font-family: 'Fira Sans', sans-serif;
+}
+header nav ul {
+  margin:20px 0;
+  padding:0;
+  list-style-type:none;
+  text-align:right;
+}
+header nav ul li {
+  display: inline;
+  margin:20px;
+  padding:0;
+  font-size:35px;
+}
+
+main {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex-grow:2;
+  margin:120px 0 0 0;
+  width:100%;
+}
+main div {
+  min-width:600px;
+  max-width: 50%;
+  height:400px;
+  
+}
+
+main div.head {
+  position:absolute;
+    background: no-repeat left/cover url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  margin:0;
+  padding:0;
+  font-family: 'Merriweather', serif;
+}
+main .text {
+  position:relative;
+  top:250px;
+  left:25%;
+}
+main div.parag.first {
+  position:relative;
+  display:block;
+  flex-wrap:wrap;
+  left:600px;
+  margin-left:10px;
+}
+
+main div.quoteSecund {
+  display:flex;
+  flex-wrap:wrap;
+  margin:0;
+  padding:0;
+  min-width:600px;
+}
+
+main div.paragSec {
+  
+}
+#block {
+  display:block;
+  position:relative;
+  width:1200px;
+  min-width:100%;
+  height:100%;
+  top:20px;
+  left:0;
+}
+.displayFlex {
+  position:absolute;
+  display:flex;
+  flex-wrap:wrap;
+}
+.quote::before {
+      content: '”';
+      font-family: 'Merriweather', serif;
+  color: white;
+  background-color:grey;
+  font-size:70px;
+}
+
+.quote {
+    height:300px;
+    padding:20px 10px 10px 10px;
+        font-family: 'Merriweather', serif;
+  color: white;
+  background-color:grey;
+  font-size:70px;
+  text-align:center;
+}
+
+.textUpper {
+  text-transform: uppercase;
+}
+

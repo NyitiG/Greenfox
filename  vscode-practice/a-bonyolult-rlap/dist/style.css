@@ -1,0 +1,16 @@
+#first {
+  width:500px;
+}
+#china {
+  font-family: 'Noto Sans HK', sans-serif;
+}
+#why {
+  height:100px;
+}
+.displayBlock {
+  display:bolck;
+}
+
+.displayInline {
+  display:inline;
+}
