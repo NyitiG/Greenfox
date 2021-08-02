@@ -7,3 +7,7 @@ div.asteroid.b329.big {
 div.asteroid.b326 {
     border: 1px solid green;
 }
+
+div.asteroid {
+    font-weight: bolder;
+}
