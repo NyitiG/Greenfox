@@ -2,3 +2,8 @@ p,
 div.asteroid.b329.big {
     color: blue;
 }
+
+#b325,
+div.asteroid.b326 {
+    border: 1px solid green;
+}
