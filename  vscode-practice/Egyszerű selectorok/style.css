@@ -11,3 +11,7 @@ div.asteroid.b326 {
 div.asteroid {
     font-weight: bolder;
 }
+
+p {
+    background-color: yellow;
+}
