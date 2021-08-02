@@ -1,0 +1,31 @@
+.bluebox,
+.blueAndOrangeBox {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid blue;
+    height: 100px;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: space-between;
+}
+.blue {
+    background-color: blue;
+    margin-top: 10px;
+}
+
+.blueAndOrangeBox {
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+}
+.bluOrange {
+    background-color: orchid;
+    margin-top: 10px;
+}
