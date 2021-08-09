@@ -1,0 +1,11 @@
+p {
+  color:#015668;
+  background-color:#0D91A1;
+  width:100px;
+  height:50px;
+  padding:10px;
+  margin:5px;
+  border:3px solid #7DCE94;
+  font-family: 'Qahiri', sans-serif;
+  font-size:20px;
+}
