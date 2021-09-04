@@ -107,4 +107,13 @@ img {
 
 .remove {
     margin: 0 5px;
+    color: #818181;
+}
+
+.material-icons:hover {
+    color: #4e4e4e;
+}
+
+.material-icons:active {
+    color: black;
 }
