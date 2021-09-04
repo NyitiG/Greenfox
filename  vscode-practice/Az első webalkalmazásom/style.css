@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#background {
+    min-width: 768px;
+    min-height: 1024px;
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(150, 147, 147);
+}
+#bigPictureMain {
+    display: flex;
+    min-width: 600px;
+    min-height: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#arrowLeft {
+    min-height: 800px;
+    min-width: 100px;
+}
+
+#bigPicture {
+    min-width: 600px;
+    min-height: 800px;
+}
+
+#arrowRight {
+    transform: rotate(0.5turn);
+}
