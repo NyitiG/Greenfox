@@ -117,3 +117,11 @@ img {
 .material-icons:active {
     color: black;
 }
+
+.checkpipe {
+    background-color: green;
+    color: white;
+}
+.checkListText {
+    color: lightgrey;
+}

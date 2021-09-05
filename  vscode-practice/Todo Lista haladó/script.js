@@ -1,6 +1,6 @@
 let tpt=false
 $(document).ready(function(){
-    let listElementsFirst = "<li> <div class='liText'>"
+    let listElementsFirst = "<li class='box'> <div class='liText' id=`liText`>"
     let todoListText=""
     let listElementsSecund = "</div><span class='remove'><i class='material-icons'>delete</i></span>"
     let listElementsThird = "<div class='checkbox'>✓</div> </li>"
@@ -9,11 +9,28 @@ $("#add").click(() =>{
     todoListText=document.getElementById("inText").value
     if (todoListText !="") {
       $("ul").append(listElementsFirst+todoListText+listElementsSecund+listElementsThird) 
-      $(document).on('clik', '') 
     }
     
     
 })
+
+$(document).on('click', '.remove', function() {
+    $(this).parent().remove();
+})
+
+$(`ul`).on(`click`, `div`, function() {
+    $(this).toggleClass(`checkpipe`)
+    $(this).closest('.box').children('.liText').toggleClass(`checkListText`);
+}
+
+)
+}
+)
+
+                        
+                         
+/*                         
+                     
 $(document).on('click', '.checkbox', function() {
 
     $(".checkbox").click (()=> {
@@ -21,9 +38,9 @@ $(document).on('click', '.checkbox', function() {
         $(this).css("background-color", "green")
         $(this).css("color", "white")
         $(this).parent().css("color","lightgrey")
-        $(".material-icons").css("color","black")
+
         console.log("false ág lefutott")
-        } else {
+        } if (tpt==true) {
         $(this).css("background-color", "white")
         $(this).css("color", "green")
         $("li").css("color","black")
@@ -33,18 +50,6 @@ $(document).on('click', '.checkbox', function() {
     })
     
 })
-$(document).on('click', '.remove', function() {
-    $(this).parent().remove();
-})
-
-}
-)
-
-                        
-                         
-/*                         
-                     
-
 
     let szoveg =""
      szoveg=document.getElementById("inText").value
