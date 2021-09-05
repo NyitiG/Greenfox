@@ -1,4 +1,4 @@
-let tpt=false
+
 $(document).ready(function(){
     let listElementsFirst = "<li class='box'> <div class='liText' id=`liText`>"
     let todoListText=""
@@ -9,6 +9,7 @@ $("#add").click(() =>{
     todoListText=document.getElementById("inText").value
     if (todoListText !="") {
       $("ul").append(listElementsFirst+todoListText+listElementsSecund+listElementsThird) 
+      document.getElementById("inText").value=""
     }
     
     
